@@ -264,7 +264,16 @@ form{
 
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background: linear-gradient(
+    to left,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d,
+    #f56040,
+    #ffc048
+  );
   position: absolute;
   top: 0;
   left: 0;
@@ -283,7 +292,8 @@ form{
   color: rgb(134, 131, 131);
   font-size: 12px;
   width: 45vw;
-  height: 70vh;
+  height: auto ;
+  min-height: 70vh;
   max-width: 350px;
 }
 
@@ -439,7 +449,7 @@ form > button {
     left:0;
     height:50px;
     width:100vw;
-    z-index: 1;
+    /* z-index: 1; */
     background-color: white;
     color:black;
     font-size: 27px;
@@ -455,7 +465,7 @@ form > button {
     left:0;
     height:50px;
     width:100vw;
-    z-index: 1;
+    /* z-index: 1; */
     background-color: white;
     color:black;
     font-size: 27px;
